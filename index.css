@@ -89,14 +89,15 @@
 }
 .max{
     background-color:rgba(14,35,45,255);
-    border-radius: 10px;
+    border-radius: 20px;
     text-align:justify;
     font-size: 15px;
-    width: 50%;
+    width: 60%;
     margin: 50px auto;
     color: white;
-    height: 20vh;
+    height: 22vh;
     padding-bottom: 50px;
+    text-shadow: 100px;
  
     
 }
@@ -141,7 +142,9 @@ em{
     font-size: 15px;
 }
 .octa{
-    background-color:rgba(14,35,45,255) ;
+    background-image: url(./images/image1_files/walmart.png);
+    background-repeat: no-repeat;
+    background-color:rgba(14,35,45,1.33) ;
     padding: 20px ;
     display: flex;
     border-radius: 25px;
@@ -163,4 +166,90 @@ em{
 .octafb{
     
     width: 50%;
+}
+#bigdiv{
+    display: flex;
+    padding: 70px;
+    justify-content: space-between;
+
+}
+#blueform{
+    background-color:rgba(14,35,45,255) ;
+    border-radius: 30px;
+    width: 30%;
+    height: 400px;
+    padding: 10px 12px;
+
+}
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+
+}
+input[type=submit]{
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px black;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+form input,form textarea{
+    background-color:rgba(0, 0, 0, 0.549);
+
+}
+textarea{
+    padding: 20px;
+    border: 1px black;
+}
+.pointer1,.pointer3,.pointer5,.pointer7,.pointer9{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgba(14,35,45,255) ;
+    font-size: 20px;
+}
+.chessboard{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+.spam{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font: 15px;
+    padding-bottom: 70px;
+}
+#shield{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+#spam,#recaptcha,#custom1{
+    text-align: center;
+    color: rgba(14,35,45,255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+#spam1,#captcha2,#custom2{
+    font-size: 20px;
+}
+#shield i{
+    size: 20rem;
 }
